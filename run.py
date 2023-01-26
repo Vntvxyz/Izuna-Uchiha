@@ -185,12 +185,11 @@ def logo():
     elif sys.platform.startswith("freebsd"):
         os.system('clear')
     else:
-        os.system('color ' +random.choice(['a', 'b', 'c', 'd'])+ " & cls & title Download: Uchiha Thành ")
-    print('''
-   ⠀╦ ╦╔═╗╦ ╦╦╦ ╦╔═╗  ╦╔═╗╦ ╦╔╗╔╔═╗
+        os.system('color ' +random.choice(['a', 'b', 'c', 'd'])+ " & cls & title Download: Uchiha Thành Vinh ")
+     print('''
+    ╦ ╦╔═╗╦ ╦╦╦ ╦╔═╗  ╦╔═╗╦ ╦╔╗╔╔═╗
     ║ ║║  ╠═╣║╠═╣╠═╣  ║╔═╝║ ║║║║╠═╣
-    ╚═╝╚═╝╩ ╩╩╩ ╩╩ ╩  ╩╚═╝╚═╝╝╚╝╩ ╩⠀Power DDoSer !
-    ''')⠀⠀⠀⠀⠀
+    ╚═╝╚═╝╩ ╩╩╩ ╩╩ ╩  ╩╚═╝╚═╝╝╚╝╩ ╩[ Private ]''')
     try:
         print("\n[*] Mục Tiêu : " +str(url_main)+ ":" +str(port))
     except:
