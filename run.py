@@ -186,7 +186,7 @@ def logo():
         os.system('clear')
     else:
         os.system('color ' +random.choice(['a', 'b', 'c', 'd'])+ " & cls & title Download: Uchiha Thành Vinh ")
-     print('''
+    print('''
     ╦ ╦╔═╗╦ ╦╦╦ ╦╔═╗  ╦╔═╗╦ ╦╔╗╔╔═╗
     ║ ║║  ╠═╣║╠═╣╠═╣  ║╔═╝║ ║║║║╠═╣
     ╚═╝╚═╝╩ ╩╩╩ ╩╩ ╩  ╩╚═╝╚═╝╝╚╝╩ ╩[ Private ]''')
