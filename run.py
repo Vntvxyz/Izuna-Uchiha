@@ -230,7 +230,7 @@ def start_url():
             down
             os.system("node-v12.13.0-x64.msi")
     logo()
-    url = input("\n[*] Target [URL/IP]: ").strip()
+    url = input("\n[*] Mục Tiêu [Link Website/IP]: ").strip()
     if url == "":
         start_url()
     url_main = url
